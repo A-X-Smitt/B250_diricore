@@ -1,8 +1,8 @@
-## B250_diricore
+# B250_diricore
 
 This is the official Diricore documentation.
 
-# Prerequisites
+## Prerequisites
 
 Define a BASE_DIR.
 Diricore was built with Python 2.7.18. Build a new conda environment with the packages in the file
@@ -22,7 +22,7 @@ Store the data at:
 $BASE_DIR/static/${species}/
 ```
 
-# Metadata Input
+## Metadata Input
 Diricore analyses require the input of two metadata files:
 
 ```
@@ -50,7 +50,7 @@ Batch1_S2_NC_Torin      Batch1_S2_NC_Torin      #7CBA4C
 ```
 
 
-# Subsequence Analysis
+## Subsequence Analysis
 Based on your file and data architecture, the subsequence analysis requires additional arguments:
 $1: Dataset ID or name; $2: The reference genome (hg19 or mm10); $3: Min read count per transcript; $4: all/ all_unique (Reads with or without duplicates)
 
@@ -58,7 +58,7 @@ $1: Dataset ID or name; $2: The reference genome (hg19 or mm10); $3: Min read co
 $BASE_DIR/software/diricore/subsequence_analysis.sh 20910 mm10 50 all_unique
 ```
 
-# 5' Density Analysis
+## 5' Density Analysis
 $1: Dataset ID or name; $2: The reference genome (hg19 or mm10); $3: Min read count per transcript; $4: all/ all_unique (Reads with or without duplicates)
 
 ```

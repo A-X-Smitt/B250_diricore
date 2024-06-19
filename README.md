@@ -1,8 +1,4 @@
-# B250_diricore
-Diricore code repository
-
-Index data location:
-https://hub.dkfz.de/s/Xooc4SCF6YpRfLD
+## B250_diricore
 
 This is the official Diricore documentation.
 

@@ -46,7 +46,7 @@ The 'contrasts' file is 3-column, tab-separated.
 1st column: Your test-group samplename, 2nd column: Your control-group samplename, 3rd column: Hex colour code
 
 ```
-Batch1_S2_NC_Torin      Batch1_S2_NC_Torin      #7CBA4C
+Batch1_S2_NC_Torin      Batch1_S1_NC_DMSO      #7CBA4C
 ```
 
 
